@@ -12,7 +12,7 @@ body {
   .logo {
     font-size: 34px;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: white;
   }
@@ -112,8 +112,10 @@ body {
   }
 
 
-  #content{
-    margin-left: 3%;
+  h3{
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
   }
 
   hr{
@@ -133,7 +135,10 @@ body {
     border-radius: 10px;
   }
 
-
+  #titulo{
+    
+    
+  }
 
 
 
@@ -172,7 +177,7 @@ body {
   figcaption{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    text-align: center;
+    text-align: left;
     margin-top: 5px;
     color: white;
   }

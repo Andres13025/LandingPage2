@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atributos De Calidad</title>
     <link rel="stylesheet" href="../style.css">
+    <style>
+      .tacticas{
+        width: 210px;
+        height: 150px;
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -19,19 +25,30 @@
             <li><a href="modificabilidad.html">Modificabilidad</a></li>
             <li><a href="rendimiento.html">Rendimiento</a></li>
             <li><a href="seguridad.html">Seguridad</a></li>
+            <li><a href="usabilidad.html">Usabilidad</a></li>
           </ul>
         </nav>
       </header>
       <div>
         <aside>
-          <img id="imagen" src="../img/desplegabilidad.jpg" alt="">
+          <img id="imagen" src="../img/escalabilidad.png" alt="">
           
         </aside>
       <section>
           <h1>Escalabilidad</h1>
-          <p><strong>Definicion: </strong>Es el atributo de calidad que nos indica la facilidad  para desplegar una aplicación en producción.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore aliquam quia exercitationem rem, quo magni consequatur. Harum quis repudiandae magnam architecto ipsa minus possimus doloremque, qui veniam tenetur mollitia.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo eum dolore, fugit vero expedita architecto, sunt inventore harum numquam facilis animi, voluptatum possimus dicta tenetur voluptates qui laboriosam ad quod.
+          <p><strong>Definicion: </strong>Es el atributo de calidad que nos indica que tanto puede crecer el sistema respecto a la cantidad de usuarios.</p>
+          <p>
+            Dos tipos de escalabilidad son la escalabilidad horizontal y la escalabilidad vertical. La escalabilidad horizontal (escalamiento horizontal) se refiere a agregar más recursos a las unidades lógicas,
+            como agregar otro servidor a un grupo de servidores. Escalabilidad vertical (escalado
+            up) se refiere a agregar más recursos a una unidad física, como agregar más memoria a una sola computadora. El problema que surge con cualquier tipo de escala es
+            cómo utilizar eficazmente los recursos adicionales. Ser efectivo significa que el
+            recursos adicionales dan como resultado una mejora mensurable de la calidad del sistema,
+            no requirió un esfuerzo indebido para agregar y no interrumpió las operaciones. En entornos de nube, la escalabilidad horizontal se denomina elasticidad. La elasticidad es una propiedad que
+            permite que un cliente agregue o elimine máquinas virtuales del grupo de recursos (consulte
+            Capítulo 26 para un análisis más detallado de dichos entornos). Estas maquinas virtuales
+            están alojados en una gran colección de más de 10,000 máquinas físicas que son
+            gestionado por el proveedor de la nube. Los escenarios de escalabilidad abordarán el impacto de
+            agregando o quitando recursos, y las medidas reflejarán la disponibilidad asociada y la carga asignada a los recursos nuevos y existentes.
           </p>
       </section>
       </div>
@@ -42,24 +59,17 @@
             <table>
               <tr>
                 <td>
-                  <img class="tacticas" src="../img/desplegabilidad1.jpg" alt="Flores de corte" width="200" height="200">
-                  <figcaption>Lanzamiento</figcaption>
+                  <img class="tacticas" src="../img/escalabilidad1.png" alt="Flores de corte" width="200" height="200">
+                  <figcaption>Horizontal</figcaption>
                 </td>
-                <td><p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, deserunt! Dignissimos ducimus labore veritatis cumque ullam pariatur obcaecati eius, distinctio magnam vero quis mollitia quam laborum consequatur tempore harum sapiente?</p></td>
+                <td><h3>Aumentar el numero de nodos en la red</h3></td>
               </tr>
               <tr>
                 <td>
-                  <img class="tacticas" src="../img/desplegabilidad1.jpg" alt="Flores de corte" width="200" height="200">
-                  <figcaption>Adaptacion</figcaption>
+                  <img class="tacticas" src="../img/escalabilidad2.jpg" alt="Flores de corte" width="200" height="200">
+                  <figcaption>Vertical</figcaption>
                 </td>
-                <td><p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, deserunt! Dignissimos ducimus labore veritatis cumque ullam pariatur obcaecati eius, distinctio magnam vero quis mollitia quam laborum consequatur tempore harum sapiente?</p></td>
-              </tr>
-              <tr>
-                <td>
-                  <img class="tacticas" src="../img/desplegabilidad1.jpg" alt="Flores de corte" width="200" height="200">
-                  <figcaption>Activacion</figcaption>
-                </td>
-                <td><p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, deserunt! Dignissimos ducimus labore veritatis cumque ullam pariatur obcaecati eius, distinctio magnam vero quis mollitia quam laborum consequatur tempore harum sapiente?</p></td>
+                <td><h3>Aumentar el hardware de cada nodo</h3></td>
               </tr>
             </table>
           </figure>
@@ -68,15 +78,16 @@
       <hr>
         <div>
           <h2>Escenario Ejemplo</h2>
-          <img id="escenario" src="../Escenarios/desplegabilidad.png" alt="">
+          <img id="escenario" src="../Escenarios/escalabilidad.png" alt="">
         </div>
       <hr>
       <div>
         <h2>Documentacion</h2>
       </div>
-      <iframe src="../documentos/desplegabilidad.pdf" frameborder="5">
+      <iframe src="../documentos/escalabilidad.pdf" frameborder="5">
         
-      </iframe>
-      <footer><p>Detechos de copyright a quien corresponda</p></footer>
+        <footer><p>Detechos de copyright a quien corresponda - <br>
+          http://jz81.github.io/course/sa/Software%20Architecture%20in%20Practice%20(3rd).pdf
+        </p></footer>
 </body>
 </html>
